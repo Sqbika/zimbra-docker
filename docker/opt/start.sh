@@ -1,4 +1,8 @@
 #!/bin/sh
+## Hotfixing apt-get error
+echo "Apt hotix"
+apt update
+
 ## Preparing all the variables like IP, Hostname, etc, all of them from the container
 sleep 5
 HOSTNAME=$(hostname -a)
